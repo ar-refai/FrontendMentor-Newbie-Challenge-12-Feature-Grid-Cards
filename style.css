@@ -40,6 +40,7 @@ body {
     font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--very-light-Gray);
     height: 100vh;
+    overflow: hidden;
 }
 
 /* features */
@@ -49,7 +50,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 70px;
 }
 
 /* heading */
@@ -58,18 +58,21 @@ body {
     color: var(--grayish-blue);
     text-align: center;
     line-height: 1.5;
-    margin-bottom: 60px;
+    margin: 60px auto;
 }
 
-.head h2 {
-    font-weight: 400;
-    font-size: 25px;
-}
 
 .head h1 {
     font-family: poppins-bold, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--very-dark-blue);
     font-size: 25px;
+}
+.head span {
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--grayish-blue);
+    opacity: .65;
+    display: block;
+    font-weight: 100;
 }
 
 .head p {
@@ -167,13 +170,12 @@ img:hover {
         margin-right: 20px;
         padding: 30px;
     }
-    .head h2 {
-        font-weight: 100;
-        color: var(--very-dark-blue);
-        font-size: 35px;
-    }
     .head h1 {
         font-size: 35px;
+    }
+    .head span {
+        font-weight: 100;
+        color: var(--very-dark-blue);
     }
     
 
